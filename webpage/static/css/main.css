@@ -1,0 +1,251 @@
+body {
+  background-color: white;
+  color: white;
+  font-family: "Helvetica Neue";
+  font-style: condensed;
+  font-weight: normal;
+/*
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  perspective: 1px;*/
+}
+
+/* ------------ Panels ------------ */
+
+.title_panel {
+  position: relative;
+  color: white;
+}
+.title_content {
+  /*display: none;*/
+  visibility: hidden;
+}
+
+#main_content_panel {
+  display: none;
+}
+
+.line {
+  margin: 10px auto;
+  width: 0%;
+  border-bottom: 1px solid #A0A0A0
+}
+
+#menu {
+  position: relative;
+}
+li:hover {
+}
+a:hover {
+  background-color: black;
+}
+#menu.affix {
+  background-color: #383838;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #A0A0A0;
+  z-index: 100;
+  opacity: 0.8;
+  /*width: 50%;*/
+  /*margin-left: 25%;*/
+}
+
+.footer {
+  display: none;
+  padding: 30px 20%;
+  color: black;
+  /*top: 50%;*/
+  /*position: relative;*/
+}
+
+.section_panel {
+  position: relative;
+}
+.section_wrapper {
+  padding: 30px 10% 30px 10%;
+  position: relative;
+}
+.section_title {
+  font-size: 400%;
+  font-weight: lighter;
+  /*top: 20%;*/
+  /*padding-left: 10%;*/
+  text-align: center;
+  color: white;
+}
+.section_content {
+  /*border: 1px solid #A0A0A0;*/
+  /*min-height: 60%;*/
+  color: black;
+  max-width: 900px;
+  margin: auto
+}
+
+.pdf_preview {
+  width: 100%;
+}
+.pdf_viewer {
+  width: 100%;
+  height: 1070px;
+  margin: auto;
+}
+
+#personal_statement {
+  /*background-color: #94B8FF;*/
+  color: white;
+  z-index: -2;
+}
+
+table {
+  color: black;
+}
+
+.dark_cover {
+  opacity: 0.4;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* ------------ Class attributes ------------ */
+
+.medtext {
+  font-size: 300%;
+  font-weight: lighter;
+}
+
+.center_text {
+  text-align: center;
+}
+
+.center_div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inline {
+  display: inline-block;
+}
+
+figure {
+  display: block;
+  margin: 0 auto;
+}
+figcaption {
+  color: #777;
+}
+
+.vertical_center {
+  top: 30%;
+  position: relative;
+}
+
+.vertical_center_true {
+  top: 50%;
+  position: relative;
+}
+
+.largetext {
+  font-size: 500%;
+  font-weight: lighter;
+}
+
+.inverted {
+  background-color: black;
+  color: white;
+}
+
+.padded_30 {
+  padding: 30px;
+}
+
+.padded_15p {
+}
+
+.neg_marg {
+  margin: 0 -100px;
+}
+
+.gray_border {
+  border-color: #777;
+}
+
+.banner_wrapper {
+  position: relative;
+  height: 180px;
+}
+.banner {
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -2;
+}
+
+.fixed_bg {
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-size: 100%;
+  /*position: fixed;*/
+}
+.parallax_wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  perspective: 1px;
+}
+.parallax__layer {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.parallax__layer--base {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  -webkit-transform: translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(2);
+}
+.parallax_wrapper {
+  font-size: 200%;
+}
+/* add some padding to force scrollbars */
+.parallax__layer {
+  padding: 100vh 0;
+}
+
+/* ------------ Overrides ------------ */
+
+.main_navbar a {
+  color: white;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav > li > a:hover {
+  background: none;
+  color: #FFCC66;
+} 
+.nav > li > a:focus {
+  background: none;
+}
